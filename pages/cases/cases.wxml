@@ -1,0 +1,34 @@
+<view class="cases">
+  <view class="hero">
+    <view class="container">
+      <text class="title">成功案例</text>
+      <text class="subtitle">我们已帮助多家传统行业企业实现AI转型</text>
+    </view>
+  </view>
+
+  <view class="content">
+    <view class="case-card">
+      <text class="case-title">某大型设备制造企业</text>
+      <text class="case-desc">为该企业设计了一套基于AI的生产质量检测方案，将质检效率提升35%，人工复核工作量降低50%。</text>
+      <view class="tags">
+        <text class="tag">制造业</text>
+      </view>
+    </view>
+
+    <view class="case-card">
+      <text class="case-title">某区域连锁零售品牌</text>
+      <text class="case-desc">帮助该企业搭建AI客服智能体，承接门店咨询、会员服务等业务，客服团队从15人缩减至4人。</text>
+      <view class="tags">
+        <text class="tag">零售连锁</text>
+      </view>
+    </view>
+
+    <view class="case-card">
+      <text class="case-title">某三甲医院后勤部门</text>
+      <text class="case-desc">为医院后勤搭建智能问答系统，患者及家属咨询响应准确率达92%，大幅减轻导诊台工作压力。</text>
+      <view class="tags">
+        <text class="tag">医疗机构</text>
+      </view>
+    </view>
+  </view>
+</view>

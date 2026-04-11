@@ -1,0 +1,74 @@
+.hero {
+  padding: 80rpx 30rpx;
+  background: linear-gradient(180deg, #FDFDFD 0%, #F6F6F8 100%);
+  text-align: center;
+}
+.title {
+  font-size: 48rpx;
+  font-weight: 700;
+  display: block;
+  margin-bottom: 16rpx;
+}
+.slogan {
+  font-size: 28rpx;
+  color: #5A5A72;
+}
+.content {
+  padding: 40rpx 30rpx;
+}
+.section {
+  margin-bottom: 60rpx;
+}
+.section-title {
+  font-size: 36rpx;
+  font-weight: 600;
+  margin-bottom: 24rpx;
+  display: block;
+}
+.desc {
+  font-size: 28rpx;
+  color: #5A5A72;
+  line-height: 1.8;
+}
+.adv-item {
+  display: flex;
+  gap: 20rpx;
+  margin-bottom: 30rpx;
+}
+.adv-icon {
+  font-size: 40rpx;
+}
+.adv-info {
+  flex: 1;
+}
+.adv-title {
+  font-size: 28rpx;
+  font-weight: 600;
+  display: block;
+  margin-bottom: 8rpx;
+}
+.adv-desc {
+  font-size: 24rpx;
+  color: #5A5A72;
+}
+.contact-card {
+  padding: 40rpx;
+  background-color: #FFFFFF;
+  border-radius: 12rpx;
+}
+.contact-item {
+  display: flex;
+  align-items: center;
+  gap: 16rpx;
+  padding: 20rpx 0;
+  border-bottom: 1rpx solid #E0E0E5;
+}
+.contact-item:last-child {
+  border-bottom: none;
+}
+.contact-icon {
+  font-size: 32rpx;
+}
+.contact-text {
+  font-size: 28rpx;
+}

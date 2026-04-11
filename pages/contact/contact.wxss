@@ -72,6 +72,24 @@
   margin-top: 16rpx;
   box-shadow: 0 8rpx 24rpx rgba(42, 91, 168, 0.25);
 }
+.btn[disabled] {
+  background-color: #B0B8C8;
+  box-shadow: none;
+}
+.success-msg {
+  display: block;
+  text-align: center;
+  margin-top: 24rpx;
+  font-size: 28rpx;
+  color: #059669;
+}
+.error-msg {
+  display: block;
+  text-align: center;
+  margin-top: 24rpx;
+  font-size: 28rpx;
+  color: #DC2626;
+}
 .info-card {
   padding: 32rpx;
   background-color: #FFFFFF;

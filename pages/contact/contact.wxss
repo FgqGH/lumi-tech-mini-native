@@ -1,80 +1,104 @@
 .hero {
-  padding: 60rpx 30rpx;
-  background: linear-gradient(180deg, #FDFDFD 0%, #F6F6F8 100%);
+  padding: 60rpx 40rpx;
+  background: linear-gradient(180deg, #F8FAFF 0%, #FFFFFF 100%);
+  border-bottom: 1rpx solid #E8EEF8;
 }
 .title {
   font-size: 44rpx;
   font-weight: 700;
+  color: #1A1A2E;
   display: block;
-  margin-bottom: 16rpx;
+  margin-bottom: 12rpx;
 }
 .subtitle {
-  font-size: 28rpx;
-  color: #5A5A72;
+  font-size: 26rpx;
+  color: #6B7280;
+  display: block;
+  line-height: 1.6;
 }
 .content {
   padding: 40rpx 30rpx;
 }
 .form {
-  margin-bottom: 60rpx;
+  margin-bottom: 50rpx;
 }
 .form-group {
-  margin-bottom: 30rpx;
+  margin-bottom: 28rpx;
 }
 .label {
   font-size: 28rpx;
   font-weight: 500;
+  color: #1A1A2E;
   display: block;
-  margin-bottom: 12rpx;
+  margin-bottom: 14rpx;
 }
 .input {
   width: 100%;
-  padding: 24rpx;
-  border: 2rpx solid #E0E0E5;
-  border-radius: 8rpx;
+  padding: 26rpx 24rpx;
+  border: 2rpx solid #E5E8F0;
+  border-radius: 12rpx;
   font-size: 28rpx;
+  color: #1A1A2E;
   background-color: #FFFFFF;
   box-sizing: border-box;
 }
+.input::placeholder {
+  color: #B0B8C8;
+}
 .textarea {
   width: 100%;
-  padding: 24rpx;
-  border: 2rpx solid #E0E0E5;
-  border-radius: 8rpx;
+  padding: 26rpx 24rpx;
+  border: 2rpx solid #E5E8F0;
+  border-radius: 12rpx;
   font-size: 28rpx;
+  color: #1A1A2E;
   background-color: #FFFFFF;
   box-sizing: border-box;
   min-height: 200rpx;
+}
+.textarea::placeholder {
+  color: #B0B8C8;
 }
 .btn {
   width: 100%;
   padding: 28rpx;
   background-color: #2A5BA8;
-  color: white;
+  color: #FFFFFF;
   border-radius: 100rpx;
   font-size: 32rpx;
+  font-weight: 500;
   text-align: center;
   border: none;
+  margin-top: 16rpx;
+  box-shadow: 0 8rpx 24rpx rgba(42, 91, 168, 0.25);
 }
 .info-card {
-  padding: 30rpx;
+  padding: 32rpx;
   background-color: #FFFFFF;
-  border-radius: 12rpx;
+  border-radius: 16rpx;
+  box-shadow: 0 2rpx 12rpx rgba(0, 0, 0, 0.04);
 }
 .info-title {
   font-size: 30rpx;
   font-weight: 600;
+  color: #1A1A2E;
   display: block;
-  margin-bottom: 24rpx;
+  margin-bottom: 28rpx;
 }
 .info-item {
   display: flex;
-  gap: 16rpx;
-  padding: 16rpx 0;
+  align-items: center;
+  gap: 20rpx;
+  padding: 20rpx 0;
+  border-bottom: 1rpx solid #F5F5F8;
+}
+.info-item:last-child {
+  border-bottom: none;
 }
 .info-icon {
-  font-size: 32rpx;
+  font-size: 36rpx;
 }
 .info-text {
-  font-size: 28rpx;
+  font-size: 27rpx;
+  color: #1A1A2E;
 }

@@ -1,10 +1,11 @@
 page {
-  background-color: #F8F9FC;
-  font-family: -apple-system, BlinkMacSystemFont, 'PingFang SC', 'Microsoft YaHei', sans-serif;
+  background-color: #FAFAFA;
+  font-family: 'PingFang SC', 'SF Pro Text', -apple-system, BlinkMacSystemFont, sans-serif;
   font-size: 28rpx;
-  color: #1A1A2E;
+  color: #1C1C1E;
   line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
 }
 .container {
-  padding: 0 30rpx;
+  padding: 0 32rpx;
 }

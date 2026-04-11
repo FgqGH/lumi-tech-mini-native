@@ -1,115 +1,123 @@
 .hero {
-  padding: 80rpx 40rpx 60rpx;
-  background: linear-gradient(180deg, #F8FAFF 0%, #FFFFFF 100%);
-  border-bottom: 1rpx solid #E8EEF8;
+  padding: 88rpx 32rpx 72rpx;
+  background: linear-gradient(170deg, #F5F7FA 0%, #FFFFFF 100%);
+  border-bottom: 1rpx solid #E8EAED;
 }
 .title {
-  font-size: 52rpx;
+  font-size: 48rpx;
   font-weight: 700;
-  color: #1A1A2E;
+  color: #1C1C1E;
   display: block;
   margin-bottom: 16rpx;
-  letter-spacing: -1rpx;
+  letter-spacing: -0.5rpx;
+  line-height: 1.2;
 }
 .subtitle {
   font-size: 28rpx;
-  color: #5A5A72;
+  color: #636366;
   display: block;
-  line-height: 1.7;
+  line-height: 1.6;
 }
 .stats {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 24rpx;
-  padding: 40rpx 30rpx;
+  gap: 20rpx;
+  padding: 36rpx 28rpx;
   background-color: #FFFFFF;
-  margin: -20rpx 30rpx 0;
-  border-radius: 16rpx;
-  box-shadow: 0 4rpx 20rpx rgba(42, 91, 168, 0.08);
+  margin: -24rpx 32rpx 0;
+  border-radius: 20rpx;
+  box-shadow: 0 4rpx 24rpx rgba(0, 0, 0, 0.06), 0 1rpx 4rpx rgba(0, 0, 0, 0.04);
 }
 .stat-item {
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 24rpx 16rpx;
-  background-color: #F8FAFF;
-  border-radius: 12rpx;
+  background-color: #F8F9FB;
+  border-radius: 16rpx;
 }
 .stat-value {
-  font-size: 42rpx;
+  font-size: 44rpx;
   font-weight: 700;
-  color: #2A5BA8;
+  color: #0066CC;
+  letter-spacing: -1rpx;
 }
 .stat-label {
   font-size: 22rpx;
-  color: #8A8A9A;
+  color: #8E8E93;
   margin-top: 8rpx;
   text-align: center;
 }
 .section {
-  padding: 60rpx 30rpx 40rpx;
+  padding: 64rpx 32rpx 48rpx;
 }
 .section-title {
   font-size: 36rpx;
   font-weight: 600;
-  color: #1A1A2E;
-  margin-bottom: 30rpx;
+  color: #1C1C1E;
+  margin-bottom: 28rpx;
   display: block;
+  letter-spacing: -0.3rpx;
 }
 .service-card {
   display: flex;
   gap: 24rpx;
   padding: 32rpx;
   background-color: #FFFFFF;
-  border-radius: 16rpx;
+  border-radius: 20rpx;
   margin-bottom: 20rpx;
-  box-shadow: 0 2rpx 12rpx rgba(0, 0, 0, 0.04);
+  box-shadow: 0 2rpx 16rpx rgba(0, 0, 0, 0.05);
+  border: 1rpx solid #F0F0F2;
 }
 .service-icon {
-  font-size: 48rpx;
-  width: 80rpx;
-  height: 80rpx;
+  font-size: 52rpx;
+  width: 88rpx;
+  height: 88rpx;
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #F0F5FF;
-  border-radius: 16rpx;
+  background: linear-gradient(135deg, #F0F5FF 0%, #E8EEF8 100%);
+  border-radius: 20rpx;
+  flex-shrink: 0;
 }
 .service-info {
   flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 .service-title {
   font-size: 32rpx;
   font-weight: 600;
-  color: #1A1A2E;
+  color: #1C1C1E;
   display: block;
   margin-bottom: 8rpx;
 }
 .service-sub {
-  font-size: 24rpx;
-  color: #6B7280;
+  font-size: 25rpx;
+  color: #6B6B70;
   line-height: 1.5;
 }
 .cta {
-  padding: 60rpx 30rpx 80rpx;
-  background: linear-gradient(180deg, #F0F5FF 0%, #FFFFFF 100%);
+  padding: 72rpx 32rpx 100rpx;
+  background: linear-gradient(180deg, #F8F9FB 0%, #FFFFFF 100%);
   text-align: center;
 }
 .cta-title {
-  font-size: 30rpx;
+  font-size: 32rpx;
   font-weight: 600;
-  color: #1A1A2E;
+  color: #1C1C1E;
   display: block;
-  margin-bottom: 32rpx;
+  margin-bottom: 36rpx;
   line-height: 1.5;
 }
 .btn {
   display: inline-block;
-  padding: 26rpx 64rpx;
-  background-color: #2A5BA8;
+  padding: 28rpx 72rpx;
+  background: linear-gradient(135deg, #0066CC 0%, #0052A3 100%);
   color: #FFFFFF;
   border-radius: 100rpx;
-  font-size: 30rpx;
-  font-weight: 500;
-  box-shadow: 0 8rpx 24rpx rgba(42, 91, 168, 0.3);
+  font-size: 32rpx;
+  font-weight: 600;
+  box-shadow: 0 8rpx 28rpx rgba(0, 102, 204, 0.32);
 }

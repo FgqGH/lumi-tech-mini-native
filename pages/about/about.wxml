@@ -1,9 +1,7 @@
 <view class="about">
   <view class="hero">
     <view class="hero-content">
-      <view class="logo-circle">
-        <text class="logo-text">L</text>
-      </view>
+      <image class="logo-circle" src="/assets/images/about-logo.png" mode="aspectFit"></image>
       <text class="title">LUMI科技</text>
       <text class="slogan">专注企业AI转型服务</text>
     </view>
@@ -26,7 +24,7 @@
   <view class="content">
     <view class="section intro-section">
       <view class="section-header">
-        <view class="section-icon">💡</view>
+        <image class="section-icon-img" src="/assets/images/about-intro.png" mode="aspectFit"></image>
         <text class="section-title">关于我们</text>
       </view>
       <text class="desc">为传统行业提供从咨询、方案设计到落地实施的全流程支持。我们不是卖产品的技术公司，而是帮您用AI解决实际业务问题的合作伙伴。</text>
@@ -34,7 +32,7 @@
 
     <view class="section">
       <view class="section-header">
-        <view class="section-icon">⭐</view>
+        <image class="section-icon-img" src="/assets/images/about-advantages.png" mode="aspectFit"></image>
         <text class="section-title">我们的优势</text>
       </view>
       <view class="adv-list">

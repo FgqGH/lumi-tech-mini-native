@@ -8,7 +8,7 @@
 
   <view class="content">
     <view class="service-card">
-      <text class="service-icon">🤖</text>
+      <image class="service-icon" src="/assets/images/service-consulting.png" mode="aspectFit"></image>
       <view class="service-body">
         <text class="service-title">AI行业转型咨询</text>
         <text class="service-sub">深入调研企业现状与业务需求，定制化设计AI转型路径图</text>
@@ -22,7 +22,7 @@
     </view>
 
     <view class="service-card">
-      <text class="service-icon">📱</text>
+      <image class="service-icon" src="/assets/images/service-social-media.png" mode="aspectFit"></image>
       <view class="service-body">
         <text class="service-title">自媒体自动化运营</text>
         <text class="service-sub">用AI技术帮助企业提升内容产出效率，降低运营团队工作负担</text>
@@ -36,7 +36,7 @@
     </view>
 
     <view class="service-card">
-      <text class="service-icon">🧠</text>
+      <image class="service-icon" src="/assets/images/service-ai-agent.png" mode="aspectFit"></image>
       <view class="service-body">
         <text class="service-title">垂直场景智能体开发</text>
         <text class="service-sub">基于大模型技术，为企业定制专属AI智能体</text>

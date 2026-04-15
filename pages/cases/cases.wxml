@@ -1,97 +1,91 @@
 <view class="cases">
-  <view class="hero">
-    <view class="container">
-      <text class="title">成功案例</text>
-      <text class="subtitle">我们已帮助多家传统行业企业实现AI转型</text>
-    </view>
+  <!-- 顶部标题 -->
+  <view class="header">
+    <text class="header-title">服务案例</text>
   </view>
 
-  <view class="stats-bar">
-    <view class="stat">
-      <text class="stat-num">50+</text>
-      <text class="stat-text">服务企业</text>
-    </view>
-    <view class="stat">
-      <text class="stat-num">98%</text>
-      <text class="stat-text">满意度</text>
-    </view>
-    <view class="stat">
-      <text class="stat-num">200+</text>
-      <text class="stat-text">项目交付</text>
-    </view>
-  </view>
-
-  <view class="content">
+  <!-- 案例网格 -->
+  <view class="case-grid">
     <view class="case-card">
-      <view class="case-header">
-        <view class="case-icon">🏭</view>
-        <view class="case-meta">
-          <text class="case-title">某大型设备制造企业</text>
-          <view class="tags">
-            <text class="tag">制造业</text>
-            <text class="tag highlight">AI质检</text>
-          </view>
+      <view class="case-image">
+        <view class="case-icon-box">
+          <text class="case-emoji">🤖</text>
+          <text class="case-badge">AI</text>
         </view>
       </view>
-      <text class="case-desc">为该企业设计了一套基于AI的生产质量检测方案，将质检效率提升35%，人工复核工作量降低50%。</text>
-      <view class="case-results">
-        <view class="result">
-          <text class="result-value">35%</text>
-          <text class="result-label">效率提升</text>
-        </view>
-        <view class="result">
-          <text class="result-value">50%</text>
-          <text class="result-label">成本降低</text>
-        </view>
+      <view class="case-content">
+        <text class="case-title">AI获客</text>
+        <text class="case-desc">某器械企业通过AI生成多渠道营销内容，全天候自动评论区截流。内容产出效率提升300%。</text>
       </view>
     </view>
 
     <view class="case-card">
-      <view class="case-header">
-        <view class="case-icon">🛒</view>
-        <view class="case-meta">
-          <text class="case-title">某区域连锁零售品牌</text>
-          <view class="tags">
-            <text class="tag">零售连锁</text>
-            <text class="tag highlight">智能客服</text>
-          </view>
+      <view class="case-image">
+        <view class="case-icon-box">
+          <text class="case-emoji">💼</text>
+          <text class="case-badge">AI</text>
         </view>
       </view>
-      <text class="case-desc">帮助该企业搭建AI客服智能体，承接门店咨询、会员服务等业务，客服团队从15人缩减至4人。</text>
-      <view class="case-results">
-        <view class="result">
-          <text class="result-value">73%</text>
-          <text class="result-label">人力节省</text>
-        </view>
-        <view class="result">
-          <text class="result-value">24h</text>
-          <text class="result-label">全天服务</text>
-        </view>
+      <view class="case-content">
+        <text class="case-title">AI销售</text>
+        <text class="case-desc">某美业企业通过定制AI销售顾问，基于专业知识库提供1对1方案推荐，接管80%的销售长。</text>
       </view>
     </view>
 
     <view class="case-card">
-      <view class="case-header">
-        <view class="case-icon">🏥</view>
-        <view class="case-meta">
-          <text class="case-title">某三甲医院后勤部门</text>
-          <view class="tags">
-            <text class="tag">医疗机构</text>
-            <text class="tag highlight">智能问答</text>
-          </view>
+      <view class="case-image">
+        <view class="case-icon-box">
+          <text class="case-emoji">📦</text>
+          <text class="case-badge">AI铺货</text>
         </view>
       </view>
-      <text class="case-desc">为医院后勤搭建智能问答系统，患者及家属咨询响应准确率达92%，大幅减轻导诊台工作压力。</text>
-      <view class="case-results">
-        <view class="result">
-          <text class="result-value">92%</text>
-          <text class="result-label">准确率</text>
+      <view class="case-content">
+        <text class="case-title">AI铺货</text>
+        <text class="case-desc">某跨境电商企业通过利用多Agent协同，实现商品向海外一键搬运及翻译。铺货时间由60%。</text>
+      </view>
+    </view>
+
+    <view class="case-card">
+      <view class="case-image">
+        <view class="case-icon-box">
+          <text class="case-emoji">📊</text>
+          <text class="case-badge">AI财务</text>
         </view>
-        <view class="result">
-          <text class="result-value">80%</text>
-          <text class="result-label">压力减轻</text>
+      </view>
+      <view class="case-content">
+        <text class="case-title">AI财务</text>
+        <text class="case-desc">某传统制造企业通过AI自动化处理单据核对、审核及报表生成。财务文档编写时间提升50%。</text>
+      </view>
+    </view>
+  </view>
+
+  <!-- 更多案例 -->
+  <view class="more-section">
+    <view class="more-card">
+      <view class="more-icon">🏭</view>
+      <view class="more-info">
+        <text class="more-title">某大型设备制造企业</text>
+        <text class="more-desc">为该企业设计了一套基于AI的生产质量检测方案，将质检效率提升35%，人工复核工作量降低50%。</text>
+        <view class="more-tags">
+          <text class="more-tag">制造业</text>
+          <text class="more-tag highlight">AI质检</text>
+        </view>
+      </view>
+    </view>
+
+    <view class="more-card">
+      <view class="more-icon">🏥</view>
+      <view class="more-info">
+        <text class="more-title">某三甲医院后勤部门</text>
+        <text class="more-desc">为医院后勤搭建智能问答系统，患者及家属咨询响应准确率达92%，大幅减轻导诊台工作压力。</text>
+        <view class="more-tags">
+          <text class="more-tag">医疗机构</text>
+          <text class="more-tag highlight">智能问答</text>
         </view>
       </view>
     </view>
   </view>
+
+  <!-- 底部占位 -->
+  <view class="bottom-space"></view>
 </view>

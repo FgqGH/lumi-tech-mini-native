@@ -1,12 +1,15 @@
 {
   "description": "LUMI科技小程序",
-  "packOptions": {"ignore": []},
+  "packOptions": {
+    "ignore": []
+  },
   "setting": {
     "urlCheck": false,
     "es6": true,
     "postcss": false,
     "minified": false,
-    "newFeature": true
+    "newFeature": true,
+    "minifyWXML": true
   },
   "compileType": "miniprogram",
   "libVersion": "3.3.5",

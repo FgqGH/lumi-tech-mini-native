@@ -22,7 +22,7 @@
         <text class="label">需求描述</text>
         <textarea class="textarea" placeholder="请简单描述您的需求..." value="{{description}}" bindinput="onDescInput" />
       </view>
-      <button class="btn" bindtap="submitForm" disabled="{{submitting}}">{{submitting ? '提交中...' : '提交咨询'}}</button>
+      <view class="btn {{submitting ? 'btn-disabled' : ''}}" bindtap="{{submitting ? '' : 'submitForm'}}">{{submitting ? '提交中...' : '提交咨询'}}</view>
       <text class="success-msg" wx:if="{{submitStatus === 'success'}}">提交成功！我们将在24小时内与您联系。</text>
       <text class="error-msg" wx:if="{{submitStatus === 'error'}}">提交失败，请稍后重试</text>
     </view>

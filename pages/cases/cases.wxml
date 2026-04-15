@@ -6,28 +6,91 @@
     </view>
   </view>
 
+  <view class="stats-bar">
+    <view class="stat">
+      <text class="stat-num">50+</text>
+      <text class="stat-text">服务企业</text>
+    </view>
+    <view class="stat">
+      <text class="stat-num">98%</text>
+      <text class="stat-text">满意度</text>
+    </view>
+    <view class="stat">
+      <text class="stat-num">200+</text>
+      <text class="stat-text">项目交付</text>
+    </view>
+  </view>
+
   <view class="content">
     <view class="case-card">
-      <text class="case-title">某大型设备制造企业</text>
+      <view class="case-header">
+        <view class="case-icon">🏭</view>
+        <view class="case-meta">
+          <text class="case-title">某大型设备制造企业</text>
+          <view class="tags">
+            <text class="tag">制造业</text>
+            <text class="tag highlight">AI质检</text>
+          </view>
+        </view>
+      </view>
       <text class="case-desc">为该企业设计了一套基于AI的生产质量检测方案，将质检效率提升35%，人工复核工作量降低50%。</text>
-      <view class="tags">
-        <text class="tag">制造业</text>
+      <view class="case-results">
+        <view class="result">
+          <text class="result-value">35%</text>
+          <text class="result-label">效率提升</text>
+        </view>
+        <view class="result">
+          <text class="result-value">50%</text>
+          <text class="result-label">成本降低</text>
+        </view>
       </view>
     </view>
 
     <view class="case-card">
-      <text class="case-title">某区域连锁零售品牌</text>
+      <view class="case-header">
+        <view class="case-icon">🛒</view>
+        <view class="case-meta">
+          <text class="case-title">某区域连锁零售品牌</text>
+          <view class="tags">
+            <text class="tag">零售连锁</text>
+            <text class="tag highlight">智能客服</text>
+          </view>
+        </view>
+      </view>
       <text class="case-desc">帮助该企业搭建AI客服智能体，承接门店咨询、会员服务等业务，客服团队从15人缩减至4人。</text>
-      <view class="tags">
-        <text class="tag">零售连锁</text>
+      <view class="case-results">
+        <view class="result">
+          <text class="result-value">73%</text>
+          <text class="result-label">人力节省</text>
+        </view>
+        <view class="result">
+          <text class="result-value">24h</text>
+          <text class="result-label">全天服务</text>
+        </view>
       </view>
     </view>
 
     <view class="case-card">
-      <text class="case-title">某三甲医院后勤部门</text>
+      <view class="case-header">
+        <view class="case-icon">🏥</view>
+        <view class="case-meta">
+          <text class="case-title">某三甲医院后勤部门</text>
+          <view class="tags">
+            <text class="tag">医疗机构</text>
+            <text class="tag highlight">智能问答</text>
+          </view>
+        </view>
+      </view>
       <text class="case-desc">为医院后勤搭建智能问答系统，患者及家属咨询响应准确率达92%，大幅减轻导诊台工作压力。</text>
-      <view class="tags">
-        <text class="tag">医疗机构</text>
+      <view class="case-results">
+        <view class="result">
+          <text class="result-value">92%</text>
+          <text class="result-label">准确率</text>
+        </view>
+        <view class="result">
+          <text class="result-value">80%</text>
+          <text class="result-label">压力减轻</text>
+        </view>
       </view>
     </view>
   </view>
